@@ -16,4 +16,3 @@ async def on_member_join(member):
 async def ping(ctx):
    await ctx.send(bot.latency)
 
-bot.run('NzM4MzY3MzAzNDg1MjI3MTA4.XyK4Iw.S8_I19ddLmUamFhtoZMy00CDN3c')
