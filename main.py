@@ -13,6 +13,6 @@ async def on_member_join(member):
    await channel.send(f'@{member} join!') 
 
 @bot.command()
-async def ping(ctx)
+async def ping(ctx):
+   await ctx.send(bot.latency)
 
-bot.run('NzM4MzY3MzAzNDg1MjI3MTA4.XyK4Iw.N1r6gm1yqkSpNpgRMfA4zfd4S1Y')
